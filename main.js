@@ -10,7 +10,7 @@ function add_blog(blog) {
     let new_blog = document.createElement('div')
 
     new_blog.classList.add('blog')
-    new_blog.append(document.createElement('h1'))
+    new_blog.append(document.createElement('h2'))
     new_blog.append(document.createElement('p'))
     new_blog.firstChild.textContent = blog['title']
     new_blog.lastChild.textContent = blog['body']
