@@ -28,6 +28,8 @@
   .blogs {
     display: flex;
     flex-wrap: wrap;
+    margin-left: 70px;
+    margin-right: 70px;
   }
   
   .blog {
