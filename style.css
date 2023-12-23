@@ -45,3 +45,59 @@
   .footer {
     text-align: center;
   }
+
+  @media (max-width: 426px) {
+    * {
+      font-family: American Typewriter, serif;
+    }
+    
+    html {
+      background-image: url(1.jpg);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+    
+    .upper {
+      background-color: #aa4b6b;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    .upper h1 {
+      color: rgb(68, 14, 27);
+      cursor: pointer;
+      font-size: 30px;
+      margin: 0;
+    }
+    
+    .blogs {
+      display: grid;
+      grid-gap: 20px; /* изменено */
+      justify-items: center;
+      justify-content: center;
+    }
+    
+    .blog {
+      width: 100%;
+      padding: 15px; 
+      flex-basis: 90%; 
+      border-radius: 10px; 
+      box-shadow: 0px 5px 10px 0px rgba(67, 25, 25, 0.732); 
+      cursor: pointer;
+      transition: 400ms;
+      background: linear-gradient(to left, #FC5C7D, #6A82FB, #FC5C7D);
+      flex: 0 1 calc(33% - 20px);
+    }
+    
+    .footer {
+      text-align: center;
+      margin-top: 20px; 
+      padding: 10px; 
+    }
+    
+}
